@@ -31,7 +31,3 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $mail->Subject = 'Заявка на покупку';
 $mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
-
-if(!$mail->send()) {
-    echo 'Error';
-}
