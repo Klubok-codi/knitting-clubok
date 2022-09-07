@@ -31,5 +31,6 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $mail->Subject = 'Заявка на покупку';
 $mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
-header('location: card-page.html');
+header('location: ./card-page.html');
+exit;
 ?>
