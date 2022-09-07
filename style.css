@@ -2,7 +2,7 @@ body{
     width: 930px;
     height: max-content;
     background-image: url(./img/translucent-image_cut-photo.ru.png);
-    background-size: 100vw 720px;
+    background-size: 100vw;
     background-repeat:no-repeat;
 }
 .header{
