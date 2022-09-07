@@ -1,15 +1,14 @@
 body{
-    margin: 0;
+    width: 930px;
     height: max-content;
     background-image: url(./img/translucent-image_cut-photo.ru.png);
-    background-size: 100%;
+    background-size: 100vw;
     background-repeat:no-repeat;
 }
 .header{
     width: 930px;
     height: 720px;
     padding: 0.8rem 0;
-    position: relative;
 }
 .container{
     width: 100%;
@@ -106,9 +105,7 @@ body{
 .bottom_header_menu{
     display: flex;
     justify-content: center;
-    width: 100%;
-    position: absolute;
-    bottom: 50px;
+    margin-top: 1.2rem;
 }
 .bottom_menu_item:nth-last-child(n+2){
     padding: 10px 40px;
@@ -193,7 +190,7 @@ body{
     transform: scale(1.1);
 }
 .shops{
-    width: 100%;
+    width: 1500px;
     height: 300px;
     padding: 0.8rem 0;
     background-image: url(./img/bg.png);
@@ -240,13 +237,13 @@ body{
     border-color:#554b46;
 }
 .info{
-    width: 100%;
+    width: 930px;
     height: 550px;
     padding: 0.8rem 0;
     margin-top: 30px;
 }
 .info-container{
-    width: 930px;
+    width: 100%;
     padding-left: 18rem;
     padding-right: 18rem;
     margin: 0 auto;
@@ -277,7 +274,7 @@ body{
     border-color:#554b46;
 }
 .spam{
-    width: 100%;
+    width: 1500px;
     height: 250px;
     padding: 0.8rem 0;
     background-image: url(./img/bg.png);
